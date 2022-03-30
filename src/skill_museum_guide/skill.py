@@ -88,10 +88,10 @@ class Skill:
                     }
                 ]
             }
-            res['response']['card'] = {
-                'type': 'BigImage',
-                'image_id': current_data['picture']
-            }
+            # res['response']['card'] = {
+            #     'type': 'BigImage',
+            #     'image_id': current_data['picture']
+            # }
             if current_exhibit + 1 in first_museum.data[current_hall]:
                 random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
                 if current_exhibit == 1:
@@ -100,7 +100,6 @@ class Skill:
                     'suggests': random_suggest['suggests']
                 }
                 res['response']['text'] = random_suggest['text']
-                res['response']['tts'] = random_suggest['tts']
                 res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': current_hall, 'exhibit': current_exhibit+1}
             else:
                 random_suggest = random.choice(main_phrases.hall_is_over)
@@ -112,7 +111,6 @@ class Skill:
                     'suggests': suggests
                 }
                 res['response']['text'] = random_suggest['text'].format(first_museum.halls_names[current_hall-1])
-                res['response']['tts'] = random_suggest['tts'].format(first_museum.halls_names[current_hall-1])
                 res['session_state'] = {'museum': 1, 'second_step': 'new_hall_choose'}
 
             res['response']['buttons'] = self.get_suggests(user_id)
@@ -177,7 +175,6 @@ class Skill:
                     'suggests': random_suggest['suggests']
                 }
                 res['response']['text'] = random_suggest['text']
-                res['response']['tts'] = random_suggest['tts']
                 res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': current_hall,
                                         'exhibit': current_exhibit + 1}
 
@@ -218,7 +215,6 @@ class Skill:
                 'suggests': random_suggest['suggests']
             }
             res['response']['text'] = random_suggest['text']
-            res['response']['tts'] = random_suggest['tts']
             res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': current_hall,
                                     'exhibit': current_exhibit + 1}
             res['response']['buttons'] = self.get_suggests(user_id)
