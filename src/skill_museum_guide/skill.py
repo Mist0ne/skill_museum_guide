@@ -68,8 +68,6 @@ class Skill:
             current_hall = req['state']['session']['hall']
             current_exhibit = req['state']['session']['exhibit']
             current_data = first_museum.data[current_hall][current_exhibit]
-            #ToDo везде убрать tts
-            #ToDo чекнуть что там с превью картинкой на аудио и принять решение по ней
             res['response']['audio_player'] = {
                 'playlist': [
                     {
@@ -78,13 +76,6 @@ class Skill:
                             'source_type': 'url',
                             'source': current_data['audio']
                         },
-                        # 'meta': {
-                        #     'title': 'title',
-                        #     'sub_title': 'sub_title',
-                        #     'art': {
-                        #         'url': current_data['picture']
-                        #     }
-                        # }
                     }
                 ]
             }
@@ -228,15 +219,24 @@ class Skill:
             res['response']['text'] = random_phrase
             res['response']['tts'] = random_phrase
             #ToDo спросить про кнопку и ссылку
-            res['response']['card'] = {'type': 'Link', 'url': 'https://kosmo-museum.ru', 'title': 'title', 'text': 'subtitle', 'image_url': 'https://newyearskill.viktortolstov.ru.com/slava/6/6.jpg'}
+            res['response']['card'] = {
+                'type': 'Link',
+                'url': 'https://kosmo-museum.ru',
+                'title': 'title',
+                'text': 'subtitle',
+                'image_url': 'https://newyearskill.viktortolstov.ru.com/slava/6/6.jpg'
+            }
             res['response']['end_session'] = True
             return
 
-        #ToDo сделать переспрос с повтором вариантов ответа
         else:
             random_phrase = random.choice(main_phrases.unclear)
-            res['response']['text'] = random_phrase
-            res['response']['tts'] = random_phrase
+            if req['state']['session']['second_step'] == 'rules':
+                res['response']['text'] = random_phrase + '\n\n' + main_phrases.rules['text']
+                res['response']['tts'] = random_phrase + '\n' + main_phrases.rules['tts']
+            else:
+                res['response']['text'] = random_phrase
+                res['response']['tts'] = random_phrase
             res['session_state'] = {}
             for key in req['state']['session'].keys():
                 res['session_state'][key] = req['state']['session'][key]
