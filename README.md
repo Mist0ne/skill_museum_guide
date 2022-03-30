@@ -1,6 +1,6 @@
 # skill museum guide
 
-Скилл винотека
+Скилл аудиогид по музею космонавтики
 https://vk.com/dev/marusia_skill_docs
 
 #### Install:

@@ -39,7 +39,7 @@ app.add_route("/metrics", handle_metrics)
 
 
 @app.post("/")
-@app.post("/vyacheslavskill")
+@app.post("/skill_museum_guide")
 @req_summary_time.time()
 def main(body: Dict) -> Dict:
     logging.info('Request: %r', body)
@@ -63,7 +63,7 @@ def main(body: Dict) -> Dict:
 
 
 @app.get("/")
-@app.get("/vyacheslavskill")
+@app.get("/skill_museum_guide")
 @req_summary_time.time()
 def get_main() -> Dict:
     req_counter.inc(1)
