@@ -228,7 +228,7 @@ class Skill:
             res['response']['text'] = random_phrase
             res['response']['tts'] = random_phrase
             #ToDo спросить про кнопку и ссылку
-            res['response']['card'] = {'type': 'Link', 'url': 'https://kosmo-museum.ru', 'title': 'title', 'text': 'subtitle', 'image_url': 3572018}
+            res['response']['card'] = {'type': 'Link', 'url': 'https://kosmo-museum.ru', 'title': 'title', 'text': 'subtitle', 'image_url': 'https://newyearskill.viktortolstov.ru.com/slava/6/6.jpg'}
             res['response']['end_session'] = True
             return
 
