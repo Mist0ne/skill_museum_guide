@@ -232,8 +232,12 @@ class Skill:
         else:
             random_phrase = random.choice(main_phrases.unclear)
             if req['state']['session']['second_step'] == 'rules':
-                res['response']['text'] = random_phrase + '\n\n' + main_phrases.rules['text']
-                res['response']['tts'] = random_phrase + '\n' + main_phrases.rules['tts']
+                res['response']['text'] = random_phrase + '\n\n' + main_phrases.welcome_text['text']
+                res['response']['tts'] = random_phrase + '\n' + main_phrases.welcome_text['tts']
+                self._sessionStorage[user_id] = {
+                    'suggests': main_phrases.welcome_text['suggests']
+                }
+                res['response']['buttons'] = self.get_suggests(user_id)
             else:
                 res['response']['text'] = random_phrase
                 res['response']['tts'] = random_phrase
