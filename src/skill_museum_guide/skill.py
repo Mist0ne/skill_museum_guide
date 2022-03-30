@@ -100,6 +100,7 @@ class Skill:
                     'suggests': random_suggest['suggests']
                 }
                 res['response']['text'] = random_suggest['text']
+                res['response']['tts'] = ''
                 res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': current_hall, 'exhibit': current_exhibit+1}
             else:
                 random_suggest = random.choice(main_phrases.hall_is_over)
@@ -175,6 +176,7 @@ class Skill:
                     'suggests': random_suggest['suggests']
                 }
                 res['response']['text'] = random_suggest['text']
+                res['response']['tts'] = ''
                 res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': current_hall,
                                         'exhibit': current_exhibit + 1}
 
@@ -215,6 +217,7 @@ class Skill:
                 'suggests': random_suggest['suggests']
             }
             res['response']['text'] = random_suggest['text']
+            res['response']['tts'] = ''
             res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': current_hall,
                                     'exhibit': current_exhibit + 1}
             res['response']['buttons'] = self.get_suggests(user_id)
