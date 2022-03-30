@@ -222,9 +222,12 @@ class Skill:
             res['response']['card'] = {
                 'type': 'Link',
                 'url': 'https://kosmo-museum.ru',
-                'title': 'title',
-                'text': 'subtitle',
-                'image_url': 'https://newyearskill.viktortolstov.ru.com/slava/6/6.jpg'
+                'title': 'Московский музей Космонавтики',
+                'text': random.choice([
+                    'Узнайте о других экспонатах музея и ближайших активностях на сайте',
+                    'Посетите музей лично! Он находится на станции метро ВДНХ в основании монумента «Покорителям космоса»'
+                ]),
+                'image_url': 'https://sun9-20.userapi.com/impf/3M7HpL9xoavAwkuHjTUCEgKsRecInz8Sphjp5w/UAzvPTuqNHw.jpg?size=1527x2160&quality=96&sign=84a914444f29c8ebfcecd1b73b1dedca&type=album'
             }
             res['response']['end_session'] = True
             return
@@ -232,8 +235,8 @@ class Skill:
         else:
             random_phrase = random.choice(main_phrases.unclear)
             if req['state']['session']['second_step'] == 'rules':
-                res['response']['text'] = random_phrase + '\n\n' + main_phrases.welcome_text['text']
-                res['response']['tts'] = random_phrase + '\n' + main_phrases.welcome_text['tts']
+                res['response']['text'] = random_phrase + '\n\n' + main_phrases.welcome_text['text'].split('\n')[2]
+                res['response']['tts'] = random_phrase + '\n' + main_phrases.welcome_text['tts'].split('\n')[2]
                 self._sessionStorage[user_id] = {
                     'suggests': main_phrases.welcome_text['suggests']
                 }
