@@ -78,20 +78,20 @@ class Skill:
                             'source_type': 'url',
                             'source': current_data['audio']
                         },
-                        'meta': {
-                            'title': 'title',
-                            'sub_title': 'sub_title',
-                            'art': {
-                                'url': current_data['picture']
-                            }
-                        }
+                        # 'meta': {
+                        #     'title': 'title',
+                        #     'sub_title': 'sub_title',
+                        #     'art': {
+                        #         'url': current_data['picture']
+                        #     }
+                        # }
                     }
                 ]
             }
-            # res['response']['card'] = {
-            #     'type': 'BigImage',
-            #     'image_id': current_data['picture']
-            # }
+            res['response']['card'] = {
+                'type': 'BigImage',
+                'image_id': current_data['picture']
+            }
             if current_exhibit + 1 in first_museum.data[current_hall]:
                 random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
                 if current_exhibit == 1:
