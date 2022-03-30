@@ -90,7 +90,7 @@ class Skill:
             }
             res['response']['card'] = {
                 'type': 'BigImage',
-                'image_id': current_data['picture']
+                'image_url': current_data['picture']
             }
             if current_exhibit + 1 in first_museum.data[current_hall]:
                 random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
@@ -167,7 +167,7 @@ class Skill:
                 }
                 res['response']['card'] = {
                     'type': 'BigImage',
-                    'image_id': current_data['picture']
+                    'image_url': current_data['picture']
                 }
                 random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
                 if current_exhibit == 1:
@@ -208,7 +208,7 @@ class Skill:
             }
             res['response']['card'] = {
                 'type': 'BigImage',
-                'image_id': current_data['picture']
+                'image_url': current_data['picture']
             }
             random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
             if current_exhibit == 1:
@@ -228,7 +228,7 @@ class Skill:
             res['response']['text'] = random_phrase
             res['response']['tts'] = random_phrase
             #ToDo спросить про кнопку и ссылку
-            res['response']['card'] = {'type': 'Link', 'url': 'https://kosmo-museum.ru', 'title': 'title', 'text': 'subtitle', 'image_id': 3572018}
+            res['response']['card'] = {'type': 'Link', 'url': 'https://kosmo-museum.ru', 'title': 'title', 'text': 'subtitle', 'image_url': 3572018}
             res['response']['end_session'] = True
             return
 
