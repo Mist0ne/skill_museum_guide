@@ -129,6 +129,22 @@ class Skill:
                 hall_number = 5
             elif original_utterance in first_museum.sixth_hall_synonims:
                 hall_number = 6
+            current_data = first_museum.data[hall_number][1]
+            res['response']['audio_player'] = {
+                'playlist': [
+                    {
+                        'stream': {
+                            'track_id': '1',
+                            'source_type': 'url',
+                            'source': current_data['audio']
+                        },
+                    }
+                ]
+            }
+            res['response']['card'] = {
+                'type': 'BigImage',
+                'image_url': current_data['picture']
+            }
             random_suggests = random.choice(main_phrases.question_between_exhibits)
             res['response']['text'] = random_suggests['text']
             res['response']['tts'] = random_suggests['tts']
