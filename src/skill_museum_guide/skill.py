@@ -141,7 +141,8 @@ class Skill:
 
         elif original_utterance in main_phrases.repeat_synonims \
                 and req['state']['session']['museum'] == 1:
-            if 'rules' not in req['state']['session']:
+            if 'rules' not in req['state']['session'] and 'exhibit' in req['state']['session'] and 'hall' in \
+                    req['state']['session']:
                 current_hall = req['state']['session']['hall']
                 current_exhibit = req['state']['session']['exhibit'] - 1
                 current_data = first_museum.data[current_hall][current_exhibit]
