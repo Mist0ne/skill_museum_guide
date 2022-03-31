@@ -83,7 +83,7 @@ class Skill:
                 'type': 'BigImage',
                 'image_url': current_data['picture']
             }
-            if current_exhibit + 1 in first_museum.data[current_hall]:
+            if current_exhibit in first_museum.data[current_hall]:
                 random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
                 if current_exhibit == 1:
                     random_suggest['suggests'] = [random_suggest['suggests'][0], random_suggest['suggests'][1]]
