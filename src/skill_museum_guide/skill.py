@@ -20,7 +20,6 @@ class Skill:
         user_id = req['session']['user_id']
         original_utterance = req['request']['original_utterance'].lower()
 
-
         # Обрабатываем вход в скилл
         if req['session']['new']:
             self._sessionStorage[user_id] = {
@@ -34,13 +33,13 @@ class Skill:
             return
 
         elif req['state']['session']['second_step'] == 'rules' \
-            and req['state']['session']['museum'] == 1 and \
-            (original_utterance in first_museum.first_hall_synonims
-            or original_utterance in first_museum.second_hall_synonims
-            or original_utterance in first_museum.third_hall_synonims
-            or original_utterance in first_museum.fourth_hall_synonims
-            or original_utterance in first_museum.fifth_hall_synonims
-            or original_utterance in first_museum.sixth_hall_synonims):
+                and req['state']['session']['museum'] == 1 and \
+                (original_utterance in first_museum.first_hall_synonims
+                 or original_utterance in first_museum.second_hall_synonims
+                 or original_utterance in first_museum.third_hall_synonims
+                 or original_utterance in first_museum.fourth_hall_synonims
+                 or original_utterance in first_museum.fifth_hall_synonims
+                 or original_utterance in first_museum.sixth_hall_synonims):
             res['response']['text'] = main_phrases.rules['text']
             res['response']['tts'] = main_phrases.rules['tts']
             self._sessionStorage[user_id] = {
@@ -92,30 +91,31 @@ class Skill:
                 }
                 res['response']['text'] = random_suggest['text']
                 res['response']['tts'] = ''
-                res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': current_hall, 'exhibit': current_exhibit+1}
+                res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': current_hall,
+                                        'exhibit': current_exhibit + 1}
             else:
                 random_suggest = random.choice(main_phrases.hall_is_over)
                 suggests = []
                 for i in range(len(first_museum.halls_names)):
-                    if i+1 != current_hall:
+                    if i + 1 != current_hall:
                         suggests.append(first_museum.halls_names[i])
                 self._sessionStorage[user_id] = {
                     'suggests': suggests
                 }
-                res['response']['text'] = random_suggest['text'].format(first_museum.halls_names[current_hall-1])
+                res['response']['text'] = random_suggest['text'].format(first_museum.halls_names[current_hall - 1])
                 res['session_state'] = {'museum': 1, 'second_step': 'new_hall_choose'}
 
             res['response']['buttons'] = self.get_suggests(user_id)
             return
 
         elif req['state']['session']['second_step'] == 'new_hall_choose' \
-            and req['state']['session']['museum'] == 1 and \
-            (original_utterance in first_museum.first_hall_synonims
-            or original_utterance in first_museum.second_hall_synonims
-            or original_utterance in first_museum.third_hall_synonims
-            or original_utterance in first_museum.fourth_hall_synonims
-            or original_utterance in first_museum.fifth_hall_synonims
-            or original_utterance in first_museum.sixth_hall_synonims):
+                and req['state']['session']['museum'] == 1 and \
+                (original_utterance in first_museum.first_hall_synonims
+                 or original_utterance in first_museum.second_hall_synonims
+                 or original_utterance in first_museum.third_hall_synonims
+                 or original_utterance in first_museum.fourth_hall_synonims
+                 or original_utterance in first_museum.fifth_hall_synonims
+                 or original_utterance in first_museum.sixth_hall_synonims):
             hall_number = 1
             if original_utterance in first_museum.first_hall_synonims:
                 hall_number = 1
@@ -143,7 +143,7 @@ class Skill:
                 and req['state']['session']['museum'] == 1:
             if 'rules' not in req['state']['session']:
                 current_hall = req['state']['session']['hall']
-                current_exhibit = req['state']['session']['exhibit']-1
+                current_exhibit = req['state']['session']['exhibit'] - 1
                 current_data = first_museum.data[current_hall][current_exhibit]
                 res['response']['audio_player'] = {
                     'playlist': [
@@ -179,12 +179,14 @@ class Skill:
                     'suggests': main_phrases.rules['suggests']
                 }
                 res['response']['buttons'] = self.get_suggests(user_id)
-                res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'rules': True, 'hall': req['state']['session']['hall'], 'exhibit': 1}
+                res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'rules': True,
+                                        'hall': req['state']['session']['hall'], 'exhibit': 1}
             return
 
-        elif original_utterance in main_phrases.go_back_synonims and req['state']['session']['museum'] == 1 and req['state']['session']['exhibit'] > 2:
+        elif original_utterance in main_phrases.go_back_synonims and 'exhibit' in req['state']['session'] and \
+                req['state']['session']['museum'] == 1 and req['state']['session']['exhibit'] > 2:
             current_hall = req['state']['session']['hall']
-            current_exhibit = req['state']['session']['exhibit']-2
+            current_exhibit = req['state']['session']['exhibit'] - 2
             current_data = first_museum.data[current_hall][current_exhibit]
             res['response']['audio_player'] = {
                 'playlist': [
@@ -218,16 +220,12 @@ class Skill:
             random_phrase = random.choice(main_phrases.exit)
             res['response']['text'] = random_phrase
             res['response']['tts'] = random_phrase
-            #ToDo спросить про кнопку и ссылку
             res['response']['card'] = {
                 'type': 'Link',
-                'url': 'https://kosmo-museum.ru',
-                'title': 'Московский музей Космонавтики',
-                'text': random.choice([
-                    'Узнайте о других экспонатах музея и ближайших активностях на сайте',
-                    'Посетите музей лично! Он находится на станции метро ВДНХ в основании монумента «Покорителям космоса»'
-                ]),
-                'image_url': 'https://sun9-20.userapi.com/impf/3M7HpL9xoavAwkuHjTUCEgKsRecInz8Sphjp5w/UAzvPTuqNHw.jpg?size=1527x2160&quality=96&sign=84a914444f29c8ebfcecd1b73b1dedca&type=album'
+                'url': main_phrases.exit_card['url'],
+                'title': main_phrases.exit_card['title'],
+                'text': main_phrases.exit_card['text'],
+                'image_url': main_phrases.exit_card['image_url'],
             }
             res['response']['end_session'] = True
             return
@@ -248,7 +246,6 @@ class Skill:
             for key in req['state']['session'].keys():
                 res['session_state'][key] = req['state']['session'][key]
             return
-
 
     # Функция возвращает подсказки для ответа.
     def get_suggests(self, user_id: str) -> List:

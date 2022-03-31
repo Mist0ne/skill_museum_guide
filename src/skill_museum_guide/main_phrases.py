@@ -37,6 +37,13 @@ rules = {
     ]
 }
 
+exit_card = {
+    'url': 'https://kosmo-museum.ru',
+    'title': 'Московский музей Космонавтики',
+    'text': 'Узнайте о других экспонатах музея и ближайших активностях на сайте.',
+    'image_url': 'https://newyearskill.viktortolstov.ru.com/slava/logo_RGB-03_2.jpg'
+}
+
 suggests_between_exhibits = [
     'Дальше',
     'Ещё раз',
