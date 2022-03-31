@@ -61,6 +61,7 @@ class Skill:
                 res['session_state']['hall'] = 6
             return
 
+        #ToDo изменить механизм перехода к следующему залу
         elif req['state']['session']['second_step'] == 'read_card' \
                 and req['state']['session']['museum'] == 1 \
                 and original_utterance in main_phrases.next_exhibit_synonims:
