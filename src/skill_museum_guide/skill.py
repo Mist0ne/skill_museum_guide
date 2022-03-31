@@ -149,7 +149,7 @@ class Skill:
             res['response']['text'] = random_suggests['text']
             res['response']['tts'] = random_suggests['tts']
             self._sessionStorage[user_id] = {
-                'suggests': random_suggests['suggests']
+                'suggests': [random_suggests['suggests'][0], random_suggests['suggests'][1]]
             }
             res['response']['buttons'] = self.get_suggests(user_id)
             res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': hall_number, 'exhibit': 1}
