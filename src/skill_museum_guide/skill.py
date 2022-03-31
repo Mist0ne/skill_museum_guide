@@ -61,29 +61,28 @@ class Skill:
                 res['session_state']['hall'] = 6
             return
 
-        #ToDo изменить механизм перехода к следующему залу
         elif req['state']['session']['second_step'] == 'read_card' \
                 and req['state']['session']['museum'] == 1 \
                 and original_utterance in main_phrases.next_exhibit_synonims:
             current_hall = req['state']['session']['hall']
             current_exhibit = req['state']['session']['exhibit']
-            current_data = first_museum.data[current_hall][current_exhibit]
-            res['response']['audio_player'] = {
-                'playlist': [
-                    {
-                        'stream': {
-                            'track_id': '1',
-                            'source_type': 'url',
-                            'source': current_data['audio']
-                        },
-                    }
-                ]
-            }
-            res['response']['card'] = {
-                'type': 'BigImage',
-                'image_url': current_data['picture']
-            }
             if current_exhibit in first_museum.data[current_hall]:
+                current_data = first_museum.data[current_hall][current_exhibit]
+                res['response']['audio_player'] = {
+                    'playlist': [
+                        {
+                            'stream': {
+                                'track_id': '1',
+                                'source_type': 'url',
+                                'source': current_data['audio']
+                            },
+                        }
+                    ]
+                }
+                res['response']['card'] = {
+                    'type': 'BigImage',
+                    'image_url': current_data['picture']
+                }
                 random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
                 if current_exhibit == 1:
                     random_suggest['suggests'] = [random_suggest['suggests'][0], random_suggest['suggests'][1]]
