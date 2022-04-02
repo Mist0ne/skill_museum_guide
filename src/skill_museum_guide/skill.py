@@ -147,7 +147,7 @@ class Skill:
             }
             random_suggests = random.choice(main_phrases.question_between_exhibits)
             res['response']['text'] = random_suggests['text']
-            res['response']['tts'] = random_suggests['tts']
+            res['response']['tts'] = ''
             self._sessionStorage[user_id] = {
                 'suggests': [random_suggests['suggests'][0], random_suggests['suggests'][1]]
             }
