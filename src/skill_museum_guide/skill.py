@@ -152,7 +152,7 @@ class Skill:
                 'suggests': [random_suggests['suggests'][0], random_suggests['suggests'][1]]
             }
             res['response']['buttons'] = self.get_suggests(user_id)
-            res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': hall_number, 'exhibit': 1}
+            res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': hall_number, 'exhibit': 2}
             return
 
         elif original_utterance in main_phrases.repeat_synonims \
