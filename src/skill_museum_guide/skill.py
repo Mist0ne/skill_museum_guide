@@ -76,6 +76,10 @@ class Skill:
                                 'source_type': 'url',
                                 'source': current_data['audio']
                             },
+                            'meta': {
+                                'title': first_museum.audio_descriptions[current_hall][current_exhibit],
+                                'sub_title': first_museum.audio_descriptions[current_hall]['subtitle']
+                            }
                         }
                     ]
                 }
@@ -139,6 +143,10 @@ class Skill:
                             'source_type': 'url',
                             'source': current_data['audio']
                         },
+                        'meta': {
+                            'title': first_museum.audio_descriptions[hall_number][1],
+                            'sub_title': first_museum.audio_descriptions[hall_number]['subtitle']
+                        }
                     }
                 ]
             }
@@ -170,6 +178,10 @@ class Skill:
                                 'track_id': '1',
                                 'source_type': 'url',
                                 'source': current_data['audio']
+                            },
+                            'meta': {
+                                'title': first_museum.audio_descriptions[current_hall][current_exhibit],
+                                'sub_title': first_museum.audio_descriptions[current_hall]['subtitle']
                             }
                         }
                     ]
@@ -213,6 +225,10 @@ class Skill:
                             'track_id': '1',
                             'source_type': 'url',
                             'source': current_data['audio']
+                        },
+                        'meta': {
+                            'title': first_museum.audio_descriptions[current_hall][current_exhibit],
+                            'sub_title': first_museum.audio_descriptions[current_hall]['subtitle']
                         }
                     }
                 ]
