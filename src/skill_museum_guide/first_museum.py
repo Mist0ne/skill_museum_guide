@@ -2,283 +2,283 @@
 # Ключи - номера экспонатов, начиная с 1
 first_hall = {
     1: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/1.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/1.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/1.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/1.jpg"
     },
     2: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/2.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/2.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/2.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/2.jpg"
     },
     3: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/3.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/3.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/3.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/3.jpg"
     },
     4: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/4.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/4.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/4.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/4.jpg"
     },
     5: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/5.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/5.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/5.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/5.jpg"
     },
     6: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/6.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/6.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/6.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/6.jpg"
     },
     7: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/7.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/7.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/7.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/7.jpg"
     },
     8: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/8.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/8.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/8.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/8.jpg"
     },
     9: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/9.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/9.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/9.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/9.jpg"
     },
     10: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/1/10.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/1/10.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/10.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/10.jpg"
     }
 }
 
 second_hall = {
     1: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/2/1.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/2/1.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/1.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/1.jpg"
     },
     2: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/2/2.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/2/2.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/2.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/2.jpg"
     },
     3: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/2/3.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/2/3.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/3.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/3.jpg"
     },
     4: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/2/4.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/2/4.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/4.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/4.jpg"
     },
     5: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/2/5.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/2/5.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/5.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/5.jpg"
     },
     6: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/2/6.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/2/6.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/6.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/6.jpg"
     },
     7: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/2/7.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/2/7.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/7.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/7.jpg"
     },
     8: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/2/8.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/2/8.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/8.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/8.jpg"
     }
 }
 
 third_hall = {
     1: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/1.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/1.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/1.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/1.jpg"
     },
     2: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/2.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/2.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/2.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/2.jpg"
     },
     3: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/3.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/3.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/3.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/3.jpg"
     },
     4: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/4.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/4.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/4.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/4.jpg"
     },
     5: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/5.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/5.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/5.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/5.jpg"
     },
     6: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/6.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/6.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/6.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/6.jpg"
     },
     7: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/7.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/7.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/7.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/7.jpg"
     },
     8: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/8.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/8.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/8.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/8.jpg"
     },
     9: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/9.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/9.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/9.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/9.jpg"
     },
     10: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/10.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/10.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/10.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/10.jpg"
     },
     11: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/11.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/11.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/11.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/11.jpg"
     },
     12: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/12.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/12.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/12.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/12.jpg"
     },
     13: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/13.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/13.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/13.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/13.jpg"
     },
     14: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/14.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/14.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/14.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/14.jpg"
     },
     15: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/3/15.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/3/15.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/15.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/15.jpg"
     }
 }
 
 fourth_hall = {
     1: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/1.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/1.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/1.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/1.jpg"
     },
     2: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/2.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/2.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/2.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/2.jpg"
     },
     3: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/3.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/3.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/3.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/3.jpg"
     },
     4: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/4.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/4.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/4.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/4.jpg"
     },
     5: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/5.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/5.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/5.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/5.jpg"
     },
     6: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/6.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/6.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/6.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/6.jpg"
     },
     7: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/7.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/7.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/7.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/7.jpg"
     },
     8: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/8.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/8.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/8.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/8.jpg"
     },
     9: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/9.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/9.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/9.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/9.jpg"
     },
     10: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/10.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/10.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/10.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/10.jpg"
     },
     11: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/11.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/11.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/11.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/11.jpg"
     },
     12: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/12.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/12.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/12.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/12.jpg"
     },
     13: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/4/13.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/4/13.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/13.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/13.jpg"
     },
 }
 
 fifth_hall = {
     1: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/5/1.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/5/1.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/1.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/1.jpg"
     },
     2: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/5/2.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/5/2.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/2.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/2.jpg"
     },
     3: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/5/3.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/5/3.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/3.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/3.jpg"
     },
     4: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/5/4.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/5/4.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/4.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/4.jpg"
     },
     5: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/5/5.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/5/5.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/5.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/5.jpg"
     },
     6: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/5/6.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/5/6.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/6.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/6.jpg"
     },
     7: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/5/7.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/5/7.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/7.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/7.jpg"
     },
     8: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/5/8.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/5/8.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/8.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/8.jpg"
     },
     9: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/5/9.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/5/9.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/9.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/9.jpg"
     },
 }
 
 sixth_hall = {
     1: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/1.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/1.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/1.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/1.jpg"
     },
     2: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/2.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/2.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/2.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/2.jpg"
     },
     3: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/3.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/3.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/3.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/3.jpg"
     },
     4: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/4.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/4.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/4.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/4.jpg"
     },
     5: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/5.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/5.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/5.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/5.jpg"
     },
     6: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/6.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/6.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/6.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/6.jpg"
     },
     7: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/7.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/7.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/7.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/7.jpg"
     },
     8: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/8.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/8.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/8.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/8.jpg"
     },
     9: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/9.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/9.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/9.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/9.jpg"
     },
     10: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/10.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/10.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/10.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/10.jpg"
     },
     11: {
-        "audio": "https://newyearskill.viktortolstov.ru.com/slava/6/11.mp3",
-        "picture": "https://newyearskill.viktortolstov.ru.com/slava/6/11.jpg"
+        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/11.mp3",
+        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/11.jpg"
     },
 }
 
@@ -1335,37 +1335,37 @@ second_hall_synonims = [
 ]
 
 third_hall_synonims = [
-    "Космический дом на орбите",
-    "включи Космический дом на орбите",
-    "запусти Космический дом на орбите",
-    "открой Космический дом на орбите",
-    "давай включи Космический дом на орбите",
-    "давай запусти Космический дом на орбите",
-    "давай открой Космический дом на орбите",
-    "хочу послушать Космический дом на орбите",
-    "хочу Космический дом на орбите",
-    "хочу слушать Космический дом на орбите",
-    "я хочу послушать Космический дом на орбите",
-    "я хочу Космический дом на орбите",
-    "я хочу слушать Космический дом на орбите",
-    "включи мне Космический дом на орбите",
-    "открой мне Космический дом на орбите",
-    "включи нам Космический дом на орбите",
-    "открой нам Космический дом на орбите",
-    "начнем с Космический дом на орбите",
-    "давай начнем с Космический дом на орбите",
-    "расскажи о Космический дом на орбите",
-    "хочу послушать про Космический дом на орбите",
-    "хочу послушать о Космический дом на орбите",
-    "давай расскажи о Космический дом на орбите",
-    "включи про Космический дом на орбите",
-    "включи о Космический дом на орбите",
-    "хочу послушать про Космический дом на орбите",
-    "хочу слушать про Космический дом на орбите",
-    "я хочу послушать про Космический дом на орбите",
-    "хочу слушать про Космический дом на орбите",
-    "я хочу послушать про Космический дом на орбите",
-    "я хочу слушать про Космический дом на орбите",
+    "космический дом на орбите",
+    "включи космический дом на орбите",
+    "запусти космический дом на орбите",
+    "открой космический дом на орбите",
+    "давай включи космический дом на орбите",
+    "давай запусти космический дом на орбите",
+    "давай открой космический дом на орбите",
+    "хочу послушать космический дом на орбите",
+    "хочу космический дом на орбите",
+    "хочу слушать космический дом на орбите",
+    "я хочу послушать космический дом на орбите",
+    "я хочу космический дом на орбите",
+    "я хочу слушать космический дом на орбите",
+    "включи мне космический дом на орбите",
+    "открой мне космический дом на орбите",
+    "включи нам космический дом на орбите",
+    "открой нам космический дом на орбите",
+    "начнем с космический дом на орбите",
+    "давай начнем с космический дом на орбите",
+    "расскажи о космический дом на орбите",
+    "хочу послушать про космический дом на орбите",
+    "хочу послушать о космический дом на орбите",
+    "давай расскажи о космический дом на орбите",
+    "включи про космический дом на орбите",
+    "включи о космический дом на орбите",
+    "хочу послушать про космический дом на орбите",
+    "хочу слушать про космический дом на орбите",
+    "я хочу послушать про космический дом на орбите",
+    "хочу слушать про космический дом на орбите",
+    "я хочу послушать про космический дом на орбите",
+    "я хочу слушать про космический дом на орбите",
     "Космического дома на орбите",
     "включи Космического дома на орбите",
     "запусти Космического дома на орбите",

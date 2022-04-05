@@ -103,7 +103,7 @@ class Skill:
                     'suggests': suggests
                 }
                 res['response']['text'] = random_suggest['text'].format(first_museum.halls_names[current_hall - 1])
-                res['session_state'] = {'museum': 1, 'second_step': 'new_hall_choose'}
+                res['session_state'] = {'museum': 1, 'second_step': 'new_hall_choose', 'hall': current_hall}
 
             res['response']['buttons'] = self.get_suggests(user_id)
             return
@@ -254,6 +254,17 @@ class Skill:
                 res['response']['tts'] = random_phrase + '\n' + main_phrases.welcome_text['tts'].split('\n')[2]
                 self._sessionStorage[user_id] = {
                     'suggests': main_phrases.welcome_text['suggests']
+                }
+                res['response']['buttons'] = self.get_suggests(user_id)
+            elif req['state']['session']['second_step'] == 'new_hall_choose':
+                new_halls = []
+                for hall_id in range(len(first_museum.halls_names)):
+                    if hall_id+1 != req['state']['session']['hall']:
+                        new_halls.append(first_museum.halls_names[hall_id])
+                res['response']['text'] = random_phrase + '\n\n' + ', '.join(new_halls)
+                res['response']['tts'] = random_phrase + '\n' + ', '.join(new_halls)
+                self._sessionStorage[user_id] = {
+                    'suggests': new_halls
                 }
                 res['response']['buttons'] = self.get_suggests(user_id)
             else:
