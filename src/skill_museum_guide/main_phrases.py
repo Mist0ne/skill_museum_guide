@@ -45,7 +45,7 @@ rules = {
 
 exit_card = {
     'url': 'https://kosmo-museum.ru/?utm_source=marusia&utm_medium=organic&utm_campaign=marusia',
-    'title': 'Московский музей Космонавтики',
+    'title': 'Московский Музей космонавтики',
     'text': 'Узнайте о других экспонатах музея и ближайших активностях на сайте.',
     'image_url': 'https://marusiaext-mcs.g.smailru.net/slava/logo_RGB-03_2.jpg'
 }
@@ -83,11 +83,6 @@ question_between_exhibits = [
     {
         "text": 'Скажите: «Далее», чтобы перейти к следующему отрывку аудиогида',
         "tts": 'Скажите: «Далее», чтобы перейти к следующему отрывку аудиогида',
-        "suggests": suggests_between_exhibits
-    },
-    {
-        "text": 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
-        "tts": 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
         "suggests": suggests_between_exhibits
     },
     {
