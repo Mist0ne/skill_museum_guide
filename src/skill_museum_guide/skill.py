@@ -66,7 +66,7 @@ class Skill:
                 and original_utterance in main_phrases.next_exhibit_synonims:
             current_hall = req['state']['session']['hall']
             current_exhibit = req['state']['session']['exhibit']
-            random_suggest_index = random.randint(len(main_phrases.question_between_exhibits))
+            random_suggest_index = random.randint(0, len(main_phrases.question_between_exhibits)-1)
             random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
             if current_exhibit in first_museum.data[current_hall]:
                 current_data = first_museum.data[current_hall][current_exhibit]
@@ -143,7 +143,7 @@ class Skill:
             elif original_utterance in first_museum.sixth_hall_synonims:
                 hall_number = 6
             current_data = first_museum.data[hall_number][1]
-            random_suggest_index = random.randint(len(main_phrases.question_between_exhibits))
+            random_suggest_index = random.randint(0, len(main_phrases.question_between_exhibits)-1)
             random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
             res['response']['audio_player'] = {
                 'playlist': [
@@ -187,7 +187,7 @@ class Skill:
                 current_hall = req['state']['session']['hall']
                 current_exhibit = req['state']['session']['exhibit'] - 1
                 current_data = first_museum.data[current_hall][current_exhibit]
-                random_suggest_index = random.randint(len(main_phrases.question_between_exhibits))
+                random_suggest_index = random.randint(0, len(main_phrases.question_between_exhibits)-1)
                 random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
                 res['response']['audio_player'] = {
                     'playlist': [
@@ -242,7 +242,7 @@ class Skill:
             current_hall = req['state']['session']['hall']
             current_exhibit = req['state']['session']['exhibit'] - 2
             current_data = first_museum.data[current_hall][current_exhibit]
-            random_suggest_index = random.randint(len(main_phrases.question_between_exhibits))
+            random_suggest_index = random.randint(0, len(main_phrases.question_between_exhibits)-1)
             random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
             res['response']['audio_player'] = {
                 'playlist': [
