@@ -66,6 +66,8 @@ class Skill:
                 and original_utterance in main_phrases.next_exhibit_synonims:
             current_hall = req['state']['session']['hall']
             current_exhibit = req['state']['session']['exhibit']
+            random_suggest_index = random.randint(len(main_phrases.question_between_exhibits))
+            random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
             if current_exhibit in first_museum.data[current_hall]:
                 current_data = first_museum.data[current_hall][current_exhibit]
                 res['response']['audio_player'] = {
@@ -80,6 +82,13 @@ class Skill:
                                 'title': first_museum.audio_descriptions[current_hall][current_exhibit],
                                 'sub_title': first_museum.audio_descriptions[current_hall]['subtitle']
                             }
+                        },
+                        {
+                            'stream': {
+                                'track_id': '2',
+                                'source_type': 'url',
+                                'source': main_phrases.question_between_exhibits_audio[random_suggest_index]['audio']
+                            },
                         }
                     ]
                 }
@@ -87,7 +96,6 @@ class Skill:
                     'type': 'BigImage',
                     'image_url': current_data['picture']
                 }
-                random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
                 if current_exhibit == 1:
                     random_suggest['suggests'] = [random_suggest['suggests'][0], random_suggest['suggests'][1]]
                 self._sessionStorage[user_id] = {
@@ -135,6 +143,8 @@ class Skill:
             elif original_utterance in first_museum.sixth_hall_synonims:
                 hall_number = 6
             current_data = first_museum.data[hall_number][1]
+            random_suggest_index = random.randint(len(main_phrases.question_between_exhibits))
+            random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
             res['response']['audio_player'] = {
                 'playlist': [
                     {
@@ -147,6 +157,13 @@ class Skill:
                             'title': first_museum.audio_descriptions[hall_number][1],
                             'sub_title': first_museum.audio_descriptions[hall_number]['subtitle']
                         }
+                    },
+                    {
+                        'stream': {
+                            'track_id': '2',
+                            'source_type': 'url',
+                            'source': main_phrases.question_between_exhibits_audio[random_suggest_index]['audio']
+                        },
                     }
                 ]
             }
@@ -154,7 +171,6 @@ class Skill:
                 'type': 'BigImage',
                 'image_url': current_data['picture']
             }
-            random_suggests = random.choice(main_phrases.question_between_exhibits)
             res['response']['text'] = random_suggests['text']
             res['response']['tts'] = ''
             self._sessionStorage[user_id] = {
@@ -171,6 +187,8 @@ class Skill:
                 current_hall = req['state']['session']['hall']
                 current_exhibit = req['state']['session']['exhibit'] - 1
                 current_data = first_museum.data[current_hall][current_exhibit]
+                random_suggest_index = random.randint(len(main_phrases.question_between_exhibits))
+                random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
                 res['response']['audio_player'] = {
                     'playlist': [
                         {
@@ -183,6 +201,13 @@ class Skill:
                                 'title': first_museum.audio_descriptions[current_hall][current_exhibit],
                                 'sub_title': first_museum.audio_descriptions[current_hall]['subtitle']
                             }
+                        },
+                        {
+                            'stream': {
+                                'track_id': '2',
+                                'source_type': 'url',
+                                'source': main_phrases.question_between_exhibits_audio[random_suggest_index]['audio']
+                            },
                         }
                     ]
                 }
@@ -190,7 +215,6 @@ class Skill:
                     'type': 'BigImage',
                     'image_url': current_data['picture']
                 }
-                random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
                 if current_exhibit == 1:
                     random_suggest['suggests'] = [random_suggest['suggests'][0], random_suggest['suggests'][1]]
                 self._sessionStorage[user_id] = {
@@ -218,6 +242,8 @@ class Skill:
             current_hall = req['state']['session']['hall']
             current_exhibit = req['state']['session']['exhibit'] - 2
             current_data = first_museum.data[current_hall][current_exhibit]
+            random_suggest_index = random.randint(len(main_phrases.question_between_exhibits))
+            random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
             res['response']['audio_player'] = {
                 'playlist': [
                     {
@@ -230,6 +256,13 @@ class Skill:
                             'title': first_museum.audio_descriptions[current_hall][current_exhibit],
                             'sub_title': first_museum.audio_descriptions[current_hall]['subtitle']
                         }
+                    },
+                    {
+                        'stream': {
+                            'track_id': '2',
+                            'source_type': 'url',
+                            'source': main_phrases.question_between_exhibits_audio[random_suggest_index]['audio']
+                        },
                     }
                 ]
             }
@@ -237,7 +270,6 @@ class Skill:
                 'type': 'BigImage',
                 'image_url': current_data['picture']
             }
-            random_suggest = random.choice(main_phrases.question_between_exhibits).copy()
             if current_exhibit == 1:
                 random_suggest['suggests'] = [random_suggest['suggests'][0], random_suggest['suggests'][1]]
             self._sessionStorage[user_id] = {

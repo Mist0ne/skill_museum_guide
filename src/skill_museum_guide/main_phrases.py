@@ -50,6 +50,29 @@ suggests_between_exhibits = [
     'Назад'
 ]
 
+question_between_exhibits_audio = [
+    {
+        'audio': 'https://marusiaext-mcs.g.smailru.net/slava/next_exhibit/1.mp3',
+        # 'title': 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
+        # 'subtitle': 'Навигационная помощь'
+    },
+    {
+        'audio': 'https://marusiaext-mcs.g.smailru.net/slava/next_exhibit/2.mp3',
+        # 'title': 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
+        # 'subtitle': 'Навигационная помощь'
+    },
+    {
+        'audio': 'https://marusiaext-mcs.g.smailru.net/slava/next_exhibit/3.mp3',
+        # 'title': 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
+        # 'subtitle': 'Навигационная помощь'
+    },
+    {
+        'audio': 'https://marusiaext-mcs.g.smailru.net/slava/next_exhibit/4.mp3',
+        # 'title': 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
+        # 'subtitle': 'Навигационная помощь'
+    },
+]
+
 question_between_exhibits = [
     {
         "text": 'Скажите: «Далее», чтобы перейти к следующему отрывку аудиогида',
