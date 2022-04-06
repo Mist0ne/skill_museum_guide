@@ -144,7 +144,7 @@ class Skill:
                 hall_number = 6
             current_data = first_museum.data[hall_number][1]
             random_suggest_index = random.randint(0, len(main_phrases.question_between_exhibits)-1)
-            random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
+            random_suggests = main_phrases.question_between_exhibits[random_suggest_index].copy()
             res['response']['audio_player'] = {
                 'playlist': [
                     {
