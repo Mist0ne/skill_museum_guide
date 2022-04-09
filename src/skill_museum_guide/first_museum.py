@@ -2,283 +2,283 @@
 # Ключи - номера экспонатов, начиная с 1
 first_hall = {
     1: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/1.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/1.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/1.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/1.jpg"
     },
     2: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/2.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/2.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/2.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/2.jpg"
     },
     3: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/3.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/3.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/3.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/3.jpg"
     },
     4: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/4.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/4.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/4.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/4.jpg"
     },
     5: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/5.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/5.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/5.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/5.jpg"
     },
     6: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/6.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/6.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/6.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/6.jpg"
     },
     7: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/7.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/7.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/7.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/7.jpg"
     },
     8: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/8.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/8.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/8.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/8.jpg"
     },
     9: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/9.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/9.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/9.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/9.jpg"
     },
     10: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/1/10.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/1/10.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/10.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/1/10.jpg"
     }
 }
 
 second_hall = {
     1: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/1.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/1.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/1.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/1.jpg"
     },
     2: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/2.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/2.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/2.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/2.jpg"
     },
     3: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/3.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/3.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/3.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/3.jpg"
     },
     4: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/4.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/4.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/4.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/4.jpg"
     },
     5: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/5.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/5.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/5.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/5.jpg"
     },
     6: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/6.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/6.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/6.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/6.jpg"
     },
     7: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/7.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/7.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/7.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/7.jpg"
     },
     8: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/2/8.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/2/8.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/8.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/2/8.jpg"
     }
 }
 
 third_hall = {
     1: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/1.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/1.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/1.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/1.jpg"
     },
     2: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/2.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/2.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/2.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/2.jpg"
     },
     3: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/3.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/3.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/3.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/3.jpg"
     },
     4: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/4.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/4.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/4.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/4.jpg"
     },
     5: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/5.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/5.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/5.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/5.jpg"
     },
     6: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/6.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/6.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/6.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/6.jpg"
     },
     7: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/7.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/7.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/7.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/7.jpg"
     },
     8: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/8.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/8.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/8.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/8.jpg"
     },
     9: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/9.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/9.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/9.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/9.jpg"
     },
     10: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/10.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/10.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/10.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/10.jpg"
     },
     11: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/11.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/11.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/11.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/11.jpg"
     },
     12: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/12.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/12.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/12.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/12.jpg"
     },
     13: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/13.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/13.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/13.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/13.jpg"
     },
     14: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/14.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/14.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/14.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/14.jpg"
     },
     15: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/3/15.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/3/15.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/15.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/3/15.jpg"
     }
 }
 
 fourth_hall = {
     1: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/1.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/1.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/1.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/1.jpg"
     },
     2: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/2.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/2.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/2.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/2.jpg"
     },
     3: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/3.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/3.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/3.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/3.jpg"
     },
     4: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/4.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/4.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/4.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/4.jpg"
     },
     5: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/5.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/5.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/5.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/5.jpg"
     },
     6: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/6.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/6.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/6.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/6.jpg"
     },
     7: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/7.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/7.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/7.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/7.jpg"
     },
     8: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/8.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/8.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/8.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/8.jpg"
     },
     9: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/9.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/9.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/9.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/9.jpg"
     },
     10: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/10.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/10.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/10.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/10.jpg"
     },
     11: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/11.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/11.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/11.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/11.jpg"
     },
     12: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/12.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/12.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/12.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/12.jpg"
     },
     13: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/4/13.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/4/13.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/13.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/4/13.jpg"
     },
 }
 
 fifth_hall = {
     1: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/1.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/1.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/1.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/1.jpg"
     },
     2: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/2.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/2.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/2.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/2.jpg"
     },
     3: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/3.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/3.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/3.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/3.jpg"
     },
     4: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/4.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/4.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/4.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/4.jpg"
     },
     5: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/5.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/5.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/5.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/5.jpg"
     },
     6: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/6.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/6.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/6.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/6.jpg"
     },
     7: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/7.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/7.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/7.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/7.jpg"
     },
     8: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/8.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/8.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/8.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/8.jpg"
     },
     9: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/5/9.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/5/9.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/9.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/5/9.jpg"
     },
 }
 
 sixth_hall = {
     1: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/1.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/1.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/1.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/1.jpg"
     },
     2: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/2.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/2.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/2.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/2.jpg"
     },
     3: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/3.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/3.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/3.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/3.jpg"
     },
     4: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/4.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/4.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/4.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/4.jpg"
     },
     5: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/5.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/5.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/5.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/5.jpg"
     },
     6: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/6.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/6.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/6.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/6.jpg"
     },
     7: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/7.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/7.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/7.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/7.jpg"
     },
     8: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/8.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/8.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/8.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/8.jpg"
     },
     9: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/9.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/9.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/9.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/9.jpg"
     },
     10: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/10.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/10.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/10.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/10.jpg"
     },
     11: {
-        "audio": "https://marusiaext-mcs.g.smailru.net/slava/6/11.mp3",
-        "picture": "https://marusiaext-mcs.g.smailru.net/slava/6/11.jpg"
+        "audio": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/11.mp3",
+        "picture": "https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/6/11.jpg"
     },
 }
 

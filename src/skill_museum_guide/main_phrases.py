@@ -47,7 +47,7 @@ exit_card = {
     'url': 'https://kosmo-museum.ru/?utm_source=marusia&utm_medium=organic&utm_campaign=marusia',
     'title': 'Московский Музей космонавтики',
     'text': 'Узнайте о других экспонатах музея и ближайших активностях на сайте.',
-    'image_url': 'https://marusiaext-mcs.g.smailru.net/slava/logo_RGB-03_2.jpg'
+    'image_url': 'https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/logo_RGB-03_2.jpg'
 }
 
 suggests_between_exhibits = [
@@ -58,22 +58,22 @@ suggests_between_exhibits = [
 
 question_between_exhibits_audio = [
     {
-        'audio': 'https://marusiaext-mcs.g.smailru.net/slava/next_exhibit/1.mp3',
+        'audio': 'https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/next_exhibit/1.mp3',
         # 'title': 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
         # 'subtitle': 'Навигационная помощь'
     },
     {
-        'audio': 'https://marusiaext-mcs.g.smailru.net/slava/next_exhibit/2.mp3',
+        'audio': 'https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/next_exhibit/2.mp3',
         # 'title': 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
         # 'subtitle': 'Навигационная помощь'
     },
     {
-        'audio': 'https://marusiaext-mcs.g.smailru.net/slava/next_exhibit/3.mp3',
+        'audio': 'https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/next_exhibit/3.mp3',
         # 'title': 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
         # 'subtitle': 'Навигационная помощь'
     },
     {
-        'audio': 'https://marusiaext-mcs.g.smailru.net/slava/next_exhibit/4.mp3',
+        'audio': 'https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/next_exhibit/4.mp3',
         # 'title': 'Скажите: «Далее», чтобы переключить аудиогид и «Ещё раз», чтобы прослушать отрывок ещё раз',
         # 'subtitle': 'Навигационная помощь'
     },
