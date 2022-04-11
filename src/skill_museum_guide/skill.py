@@ -106,7 +106,7 @@ class Skill:
                 res['session_state'] = {'museum': 1, 'second_step': 'read_card', 'hall': current_hall,
                                         'exhibit': current_exhibit + 1}
             else:
-                random_suggest = random.choice(main_phrases.hall_is_over)
+                random_suggest = random.choice(list(main_phrases.hall_is_over))
                 suggests = []
                 for i in range(len(first_museum.halls_names)):
                     if i + 1 != current_hall:
@@ -114,7 +114,7 @@ class Skill:
                 self._sessionStorage[user_id] = {
                     'suggests': suggests
                 }
-                res['response']['text'] = random_suggest['text'].format(first_museum.halls_names[current_hall - 1]) + \
+                res['response']['text'] = str(random_suggest['text']).format(first_museum.halls_names[current_hall - 1]) + \
                                           '\n\n' + ', '.join(suggests)
                 res['session_state'] = {'museum': 1, 'second_step': 'new_hall_choose', 'hall': current_hall}
 
@@ -299,21 +299,21 @@ class Skill:
         else:
             random_phrase = random.choice(main_phrases.unclear)
             if req['state']['session']['second_step'] == 'rules':
-                res['response']['text'] = random_phrase + '\n\n' + main_phrases.welcome_text['text'].split('\n')[2]
-                res['response']['tts'] = random_phrase + '\n' + main_phrases.welcome_text['tts'].split('\n')[2]
+                res['response']['text'] = random_phrase + '\n\n' + str(main_phrases.welcome_text['text']).split('\n')[2]
+                res['response']['tts'] = random_phrase + '\n' + str(main_phrases.welcome_text['tts']).split('\n')[2]
                 self._sessionStorage[user_id] = {
                     'suggests': main_phrases.welcome_text['suggests']
                 }
                 res['response']['buttons'] = self.get_suggests(user_id)
             elif req['state']['session']['second_step'] == 'new_hall_choose':
-                random_suggest = random.choice(main_phrases.hall_is_over)
+                random_suggest = random.choice(list(main_phrases.hall_is_over))
                 current_hall = req['state']['session']['hall']
                 new_halls = []
                 for hall_id in range(len(first_museum.halls_names)):
                     if hall_id+1 != req['state']['session']['hall']:
                         new_halls.append(first_museum.halls_names[hall_id])
                 res['response']['text'] = random_phrase + '\n\n' + \
-                                          random_suggest['text'].format(first_museum.halls_names[current_hall - 1]) \
+                                          str(random_suggest['text']).format(first_museum.halls_names[current_hall - 1]) \
                                           + '\n\n' + ', '.join(new_halls)
                 res['response']['tts'] = random_phrase + '\n' + ', '.join(new_halls)
                 self._sessionStorage[user_id] = {
