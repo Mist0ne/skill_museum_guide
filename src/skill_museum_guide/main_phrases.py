@@ -47,7 +47,7 @@ exit_card = {
     'url': 'https://kosmo-museum.ru/?utm_source=marusia&utm_medium=organic&utm_campaign=marusia',
     'title': 'Московский Музей космонавтики',
     'text': 'Узнайте о других экспонатах музея и ближайших активностях на сайте.',
-    'image_url': 'https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/logo_RGB-03_2.jpg'
+    'image_url': 'https://resources-vc.go.mail.ru/external_skills/skill_museum_guide/logo_RGB-03_2.png'
 }
 
 suggests_between_exhibits = [
