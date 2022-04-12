@@ -8,6 +8,7 @@ from skill_museum_guide.skill import skill
 base_req_file_name = Path(__file__).parent / 'base_request.json'
 
 
+# flake8: noqa
 @pytest.mark.parametrize('phrase_text, new_session, answer_text', [
     ('космос', True, """Добро пожаловать в аудиотур по московскому Музею космонавтики! Путеводитель расскажет про начало покорения космоса, создание орбитальных станций, достижения отечественной, зарубежной космонавтики и многое-многое другое. Обещаю, понравится не только юным мечтателям-космонавтам, но и взрослым!
 

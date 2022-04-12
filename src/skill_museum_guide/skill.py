@@ -1,6 +1,6 @@
 # flake8: noqa: E501
 import random
-from typing import Dict, List
+from typing import Dict, List, Any
 from . import first_museum, main_phrases
 
 
@@ -66,7 +66,7 @@ class Skill:
             current_hall = req['state']['session']['hall']
             current_exhibit = req['state']['session']['exhibit']
             random_suggest_index = random.randint(0, len(main_phrases.question_between_exhibits)-1)
-            random_suggest = main_phrases.question_between_exhibits[random_suggest_index].copy()
+            random_suggest: Any = main_phrases.question_between_exhibits[random_suggest_index].copy()
             if current_exhibit in first_museum.data[current_hall]:
                 current_data = first_museum.data[current_hall][current_exhibit]
                 res['response']['audio_player'] = {
