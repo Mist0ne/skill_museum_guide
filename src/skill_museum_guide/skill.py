@@ -1,8 +1,7 @@
 # flake8: noqa: E501
 import random
 from typing import Dict, List
-from . import first_museum
-from . import main_phrases
+from . import first_museum, main_phrases
 
 
 class Skill:
